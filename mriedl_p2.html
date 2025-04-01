@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Survey - Page 2</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+    />
+  </head>
+  <body class="container mt-5">
+    <h2 class="text-center">Business Analytics Student Survey</h2>
+
+    <form action="hawkid_ty.html" method="get" class="mt-4">
+      <div class="mb-3">
+        <label class="form-label"
+          >I am finishing my:
+          <span class="text-danger">Required field</span></label
+        >
+        <div>
+          <input type="radio" name="year" value="1" required /> First year at
+          Iowa<br />
+          <input type="radio" name="year" value="2" /> Second year at Iowa<br />
+          <input type="radio" name="year" value="3" /> Third year at Iowa<br />
+          <input type="radio" name="year" value="4" /> Fourth year at Iowa<br />
+          <input type="radio" name="year" value="5+" /> Fifth+ year at Iowa
+        </div>
+      </div>
+
+      <div class="mb-3">
+        <label class="form-label"
+          >BAIS core class I have completed:
+          <span class="text-danger">Required field</span></label
+        >
+        <div>
+          <input
+            type="checkbox"
+            name="bais_classes"
+            value="Information Systems"
+          />
+          Information Systems<br />
+          <input type="checkbox" name="bais_classes" value="Operations" />
+          Operations<br />
+          <input
+            type="checkbox"
+            name="bais_classes"
+            value="Foundations of Business Analytics"
+          />
+          Foundations of Business Analytics<br />
+          <input
+            type="checkbox"
+            name="bais_classes"
+            value="Computational Thinking"
+          />
+          Computational Thinking<br />
+          <input
+            type="checkbox"
+            name="bais_classes"
+            value="Database Management"
+          />
+          Database Management<br />
+          <input type="checkbox" name="bais_classes" value="Data Wrangling" />
+          Data Wrangling<br />
+          <input type="checkbox" name="bais_classes" value="Data Mining" /> Data
+          Mining<br />
+          <input type="checkbox" name="bais_classes" value="BAIS Capstone" />
+          BAIS Capstone
+        </div>
+      </div>
+
+      <button type="submit" class="btn btn-success">Finish</button>
+    </form>
+  </body>
+</html>
